@@ -27,7 +27,9 @@
    git clone https://github.com/yourusername/excel-to-database-importer.git
    cd excel-to-database-importer
 
-2. Install the necessary dependencies:
+2. add file folder above app.js and put .xlsx file
+
+3. Install the necessary dependencies:
 
    ```bash
    npm install
@@ -50,7 +52,7 @@
 1. Run the import script:
    
    ```bash
-   node import.js
+   node app.js
 
 2. Check the console output for details on the import process and any potential errors.
    
